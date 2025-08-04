@@ -1,0 +1,164 @@
+<!DOCTYPE html> <!--Define que trabajaremos una estructura en HTML-->
+<html lang="es"><!--iNDICA EL LENGUAJE QUE USA LA PAGINA-->
+
+<head><!--Inicio de la cabecera del sitio web-->
+    <meta charset="UTF-8"><!--Permite que se vean bien las letras especiales como ñ, tildes, símbolos, etc.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que el sitio web sea responsive (que se adapte a pantallas pequeñas).-->
+    <title>Hotel de Luna</title><!--Es lo que ves en la parte superior cuando tienes la pestaña abierta.-->
+<!-- CSS Personalizado -->
+<link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Agrega un diseño bonito y ordenado con clases predefinidas (sin escribir todo el CSS a mano).-->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Hotel de Luna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Habitaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</head><!--Le dicen al navegador que ya terminó esa parte del documento.-->
+
+<body><!--Es lo que los usuarios ven y con lo que interactúan.-->
+    <!-- Hero Section -->
+    <header class="bg-light text-dark text-center py-5" id="inicio">
+        <div class="container">
+            <h1 class="display-4">Hotel de Luna</h1>
+            <p class="lead">En el Hotel de Luna, no solo ofrecemos habitaciones, sino experiencias inolvidables. Somos
+                un hotel pensado para quienes buscan descanso, comodidad y un ambiente único que mezcla lo moderno con
+                lo natural. Nuestro nombre nace del encanto de las noches tranquilas bajo la luna, y queremos que cada
+                huésped sienta esa misma magia desde el primer momento.</p>
+            <a class="btn btn-primary btn-lg" href="#servicios">Saber más</a>
+        </div>
+    </header>
+
+<!-- Contenido Destacado -->
+<section class="container py-5" id="servicios">
+  <div class="row">
+    <!-- Tarjeta 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/38257387465_42899439ea_c.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Habitación con Piscina Privada</h5>
+          <p class="card-text">Relájate en nuestra exclusiva habitación con piscina privada, ideal para descansar en un ambiente tranquilo y elegante.
+Disfruta de una cama king-size, aire acondicionado, baño moderno, minibar y una hermosa piscina solo para ti.
+Perfecta para parejas o viajeros que buscan comodidad y privacidad.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Tarjeta 2 (replicar según necesidad) -->
+         <div class="col-md-4">
+      <div class="card">
+        <img src="img/dsc-6279_00000000_5a699724_240109125620_1280x794.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Habitación con Vista Natural</h5>
+          <p class="card-text">Despierta con el sonido de la naturaleza y una vista espectacular.
+Nuestra habitación con vista natural ofrece una experiencia de descanso rodeada de paisajes verdes, aire fresco y total tranquilidad.
+Incluye cama doble, baño privado, aire acondicionado y balcón con vista al jardín o la montaña.</p>
+  </div>
+      </div>
+         </div>
+         
+  <!--Trajeta 3-->
+           <div class="col-md-4">
+      <div class="card">
+        <img src="img/4Ls2rTgK-image004-2-1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Habitación Nocturna con Luces LED</h5>
+          <p class="card-text">Sumérgete en una atmósfera moderna y envolvente.
+Nuestra habitación nocturna combina tonos oscuros con luces LED de colores que crean un ambiente perfecto para relajarte o disfrutar en pareja.
+Cuenta con cama cómoda, aire acondicionado, TV, minibar y detalles únicos que la hacen diferente a todo lo tradicional.</p>
+  </div>
+      </div>
+           </div>
+
+ <!--Trajeta 4-->
+           <div class="col-md-4">
+      <div class="card">
+        <img src="img/hotel-room-type-xotels-hotel-management-company-800x599.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Habitación con Cama Redonda</h5>
+          <p class="card-text">Diseñada para sorprender, esta habitación ofrece una cama redonda que combina comodidad y estilo en un solo espacio.
+Perfecta para momentos especiales, incluye iluminación suave, aire acondicionado, TV, baño privado y una decoración que invita al descanso y la intimidad.</p>
+  </div>
+      </div>
+           </div>
+
+            <!--Trajeta 5-->
+           <div class="col-md-4">
+      <div class="card">
+        <img src="img/Habitacion_premium_king_75.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Habitación con Cama Extra Grande</h5>
+          <p class="card-text">Disfruta del descanso total en nuestra habitación con cama extra grande, ideal para quienes buscan espacio, confort y tranquilidad.
+Cuenta con aire acondicionado, baño privado, TV, Wi-Fi y una decoración pensada para hacerte sentir como en casa.
+Perfecta para parejas o viajeros que valoran el buen descanso.</p>
+  </div>
+      </div>
+           </div>
+
+                       <!--Trajeta 6-->
+           <div class="col-md-4">
+      <div class="card">
+        <img src="img/temática-azul-con-decoración-de-habitación-para-niños-en-luna-ª-trenzado-los-diseño-interior-dormitorio-227252258.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Habitación de Luna</h5>
+          <p class="card-text">Vive una noche mágica en nuestra Habitación Luna, inspirada en la calma y el brillo del cielo nocturno.
+Con una decoración suave, luces tenues y detalles que evocan la luna, es el espacio perfecto para relajarte y soñar.
+Incluye cama doble, aire acondicionado, baño privado, Wi-Fi y una atmósfera única que te conecta con la tranquilidad nocturna.</p>
+  </div>
+      </div>
+           </div>
+</section>
+
+<!-- Nosotros -->
+<section class="bg-secondary text-white py-5" id="nosotros">
+  <div class="container text-center">
+    <h2>Sobre Nosotros</h2>
+    <p>En el Hotel de Luna, no solo ofrecemos habitaciones, sino experiencias inolvidables. Somos
+                un hotel pensado para quienes buscan descanso, comodidad y un ambiente único que mezcla lo moderno con
+                lo natural. Nuestro nombre nace del encanto de las noches tranquilas bajo la luna, y queremos que cada
+                huésped sienta esa misma magia desde el primer momento.</p>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section class="container py-5" id="contacto">
+  <h2>Contáctanos</h2>
+  <form>
+    <input type="text" class="form-control mb-3" placeholder="Nombre">
+    <input type="email" class="form-control mb-3" placeholder="Teléfono">
+    <textarea class="form-control mb-3" placeholder="Mensaje"></textarea>
+    <button class="btn btn-primary">Enviar</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2025 Hotel de Luna | Todos los derechos reservados a el autor.
+</footer>
+
+</body><!--Le dicen al navegador que ya terminó esa parte del documento.-->
+
+</html><!--Le dicen al navegador que ya terminó esa parte del documento.-->
